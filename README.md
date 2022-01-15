@@ -1,3 +1,4 @@
+![](https://img.shields.io/github/license/Karunamon/concourse-ssh-scp-resource) ![](https://img.shields.io/badge/resource%20url-ghcr.io%2Fkarunamon%2Fssh--scp--resource-blue?logo=Concourse)
 # ssh-scp-resource
 A Concourse resource to run commands on hosts or copy files to them using SSH or SCP.
 
@@ -68,3 +69,7 @@ resources:
       ...
       -----END OPENSSH PRIVATE KEY-----
 ```
+
+## Thanks
+
+[Dan Spencer (@danrspencer)](https://github.com/danrspencer) for writing this. All I've done is minor bug fixing and documentation.
